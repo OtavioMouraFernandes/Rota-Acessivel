@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=BBH+Bartle&family=Odibee+Sans&family=Text+Me+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=BBH+Bartle&family=Odibee+Sans&family=Syncopate:wght@400;700&family=Text+Me+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=BBH+Bartle&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Odibee+Sans&family=Syncopate:wght@400;700&family=Text+Me+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+.titulo {
+    text-align: center;
+    font-size: 35px;
+     font-family: "Audiowide", sans-serif;
+    color: #e8dcc8;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: #1F2A44;
+    padding: 0px;
+    margin: 0;
+}
+
+p {
+   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   font-weight: bold;
+}
+
+
+.footer {
+    background-color: #e8dcc8;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.texto {
+    background-color: #c6a75e;
+    padding: 20px;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+      font-style: normal;
+           text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    
+    
+
+}
+
+.paragrafo{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #e8dcc8;
+     font-family: "Montserrat", sans-serif ;
+     font-weight: bold;
+       width: 240px ;
+     height: 130px ;
+     font-style: normal;
+           text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+
+.paragrafo1{
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px;
+      background-color: #e8dcc8;
+      font-family: "Montserrat", sans-serif ;
+      font-weight: bold;
+      font-style: normal;
+         width: 240px ;
+     height: 130px ;
+}
+
+
+.botaotxt {
+    font-family:"Montserrat", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bolder;
+    background-color:  #e8dcc8;
+    font-size: 20px;
+}
+.botao{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    color: #e8dcc8;;
+    display: flex;
+    
+}
+  
+
+.botao2 {
+    margin-top: 20px;
+   text-align: center;
+   justify-content: center;
+    width: 100%;
+    display: flex;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    align-items: center;
+}
+
+.copy{
+    color:  #e8dcc8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+
+a{
+     color: #1F2A44;
+       background-color:  #e8dcc8;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    border: #283e4b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    font-weight: 40px;
+    justify-content: center;
+      transition: transform 0.3s ease, color 0.3s ease; 
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.5); 
+}
+a:hover{
+    transform: translateY(-5px); 
+    background-color: rgb(103, 120, 129);
+}
+
+
+#video {
+    width: 90vw;
+    height: 60vh;
+    display: grid;
+    place-items: center;    
+    margin: 0%; 
+    box-sizing: border-box;
+    width: 100% ;
+    max-width: 100%;
+     margin-left: 0%;
+    margin-right: 0%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.canva {
+    width: 100%;            
+    border-radius: 20px;
+    max-width: 800px;      
+    height: auto;         
+     margin-left: 0%;
+    margin-right: 0%; 
+    align-items: center;
+    max-width: 100%;
+   justify-content: center;
+    display: none;
+    margin: 20px;
+}
